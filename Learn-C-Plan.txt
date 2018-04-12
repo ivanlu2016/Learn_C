@@ -1,0 +1,29 @@
+URL:
+https://www.programiz.com/c-programming/library-function
+
+two example:
+printf to add an print
+
+#include <stdio.h>
+int main()
+{
+    // If you use printf() function without including the <stdio.h>
+    // header file, this program will show an error.
+    printf("Catch me if you can.");
+}
+
+
+find the square root by using sqrt()
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+   float num, root;
+   printf("Enter a number: ");
+   scanf("%f", &num);
+   // Computes the square root of num and stores in root.
+   root = sqrt(num);
+   printf("Square root of %.2f = %.2f", num, root);
+   return 0;
+}
